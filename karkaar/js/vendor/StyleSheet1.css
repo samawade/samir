@@ -1,0 +1,57 @@
+﻿.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  width:auto;
+}
+
+/*  image */
+.webApp {
+  background-color: #aaa;
+  background-image: url('../images/web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.frontEnd {
+  background-color: #aaa;
+  background-image: url('../images/front.jpg');
+  width: 100%;
+  padding: 20px;
+}
+.backEnd {
+  background-color: #aaa;
+  background-image: url('../images/back.jpg');
+  width: 100%;
+  padding: 20px;
+}
+.DB {
+  background-color: #aaa;
+  background-image: url('../images/DB.jpg');
+  width: 100%;
+  padding: 20px;
+}
+
+
